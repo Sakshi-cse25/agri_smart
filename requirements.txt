@@ -1,0 +1,34 @@
+# ============================================================
+# Agri-Smart: requirements.txt
+# Install all dependencies with: pip install -r requirements.txt
+# ============================================================
+
+# --- Web UI ---
+streamlit==1.35.0           # Our interactive dashboard framework
+
+# --- Machine Learning (Crop Recommendation) ---
+scikit-learn==1.5.0         # Random Forest Classifier
+pandas==2.2.2               # Data manipulation and CSV handling
+numpy==1.26.4               # Numerical operations
+
+# --- Deep Learning (Disease Detection) ---
+tensorflow==2.16.1          # CNN model for image classification
+keras==3.3.3                # High-level neural network API (bundled with TF)
+Pillow==10.3.0              # Image loading and preprocessing
+
+# --- Data Visualization ---
+matplotlib==3.9.0           # Plotting graphs
+seaborn==0.13.2             # Statistical visualizations
+plotly==5.22.0              # Interactive charts in Streamlit
+
+# --- Model Persistence ---
+joblib==1.4.2               # Saving/loading the trained Random Forest model
+
+# --- Utilities ---
+requests==2.32.2            # HTTP requests (for potential API use)
+tqdm==4.66.4                # Progress bars during training
+streamlit
+tensorflow
+plotly
+pillow
+scikit-learn
